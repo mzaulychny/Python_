@@ -1,4 +1,6 @@
 import confic
+import discord
+from discord import utils
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -49,6 +51,4 @@ class MyClient(discord.Client):
 <code lang="python">
 client = MyClient()
 client.run('confic.TOKEN')
-import discord
-from discord import utils
 </code>
